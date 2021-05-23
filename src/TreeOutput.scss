@@ -1,0 +1,26 @@
+.treeNode {
+  border: 2px solid black;
+  min-height: 100px;
+  min-width: 80px;
+  height: auto;
+  width: auto;
+  margin: 8px;
+  background-color: azure;
+}
+
+.treeNode > .nodeId {
+  font-weight: bold;
+  margin: 5px;
+}
+.treeNode > .nodeChildren {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.nodeChildren > .treeNode {
+}
+
+.treeNode.green-node {
+  border: 2px solid green;
+}

@@ -1,0 +1,15 @@
+.App-body {
+  > * {
+    margin: 10px 5px;
+  }
+  .OutputContainer {
+    padding: 10px;
+    border: 1px solid black;
+    background: #34acbc3f;
+    min-width: 41%;
+    width: fit-content;
+  }
+  .body-message {
+    margin-left: 16px;
+  }
+}
